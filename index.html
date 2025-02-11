@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogurt Casero Delicioso</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: rgb(3, 3, 3);
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .hero {
+            background-image: url('yogurt.jpg'); 
+            height: 300px;
+            background-size: cover;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 30%;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4CAF50;
+            color: rgb(231, 218, 32);
+            position: relative;
+            bottom: 0;
+            width:  80%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yogurt Casero Delicioso</h1>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#products">Productos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>¡El mejor yogurt casero!</h1>
+    <img src="yogurt.png" alt="Yogurt Casero" />
+    <p>Hecho con amor y los mejores ingredientes.</p>
+</div>
+
+<div class="container">
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En Yogurt Casero Delicioso, nos dedicamos a crear el mejor yogurt artesanal utilizando ingredientes frescos y naturales. Nuestro compromiso es ofrecer un producto saludable y delicioso para toda la familia.</p>
+    </section>
+
+    <section id="products">
+        <h2>Productos</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Yogurt Natural</h3>
+                <p>Yogurt cremoso y suave, ideal para cualquier momento del día.</p>
+            </div>
+            <div class="product">
+                <h3>Yogurt de Frutas</h3>
+                <p>Deliciosos sabores de frutas frescas, perfectos para un desayuno saludable.</p>
+            </div>
+            <div class="product">
+                <h3>Yogurt Griego</h3>
+                <p>Yogurt espeso y rico en proteínas, ideal para los amantes del fitness.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactanos</h2>
+        <p>Si tienes alguna pregunta o deseas realizar un pedido, no dudes en contactarnos:</p>
+        <p>Email: yogurtcasero01@gmail.com</p>
+        <p>Teléfono:+505 81068372</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Yogurt Casero Delicioso. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
